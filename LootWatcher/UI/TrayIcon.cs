@@ -21,7 +21,7 @@ namespace LootWatcher
 			trayIcon.ContextMenu = trayMenu;
 			trayIcon.Visible = true;
 			trayIcon.Click += TrayIconOnClick;
-			
+
 		}
 
 		private void TrayIconOnClick(object sender, EventArgs eventArgs)
